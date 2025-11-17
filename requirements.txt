@@ -1,0 +1,14 @@
+pandas
+numpy
+sentence-transformers
+transformers
+huggingface-hub
+scikit-learn
+torch
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+# Optional: Use FAISS where supported; skipped on Windows
+faiss-cpu; sys_platform != "win32"
+
