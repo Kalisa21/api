@@ -3,13 +3,8 @@ uvicorn[standard]
 pandas
 numpy
 
-# Sentence Transformers (this already includes a lightweight embedding backend)
 sentence-transformers==2.2.2
 
-# FAISS for fast search
 faiss-cpu
-
-# Requests for downloading models if needed
 requests
-
 python-multipart
