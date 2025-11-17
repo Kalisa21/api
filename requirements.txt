@@ -1,14 +1,15 @@
-pandas
-numpy
-sentence-transformers
-transformers
-huggingface-hub
-scikit-learn
-torch
 fastapi
 uvicorn[standard]
-python-multipart
-requests
-# Optional: Use FAISS where supported; skipped on Windows
-faiss-cpu; sys_platform != "win32"
+pandas
+numpy
 
+# Sentence Transformers (this already includes a lightweight embedding backend)
+sentence-transformers==2.2.2
+
+# FAISS for fast search
+faiss-cpu
+
+# Requests for downloading models if needed
+requests
+
+python-multipart
