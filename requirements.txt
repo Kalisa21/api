@@ -3,6 +3,7 @@ uvicorn[standard]
 pandas
 numpy
 
+sentence-transformers==2.2.2
 
 faiss-cpu
 requests
