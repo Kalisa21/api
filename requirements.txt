@@ -3,8 +3,9 @@ uvicorn[standard]
 pandas
 numpy
 
+# Lightweight version of sentence transformers
 sentence-transformers==2.2.2
 
-faiss-cpu
 requests
 python-multipart
+scikit-learn
