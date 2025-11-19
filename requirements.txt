@@ -4,7 +4,7 @@ pandas
 numpy
 
 # Lightweight version of sentence transformers
-sentence-transformers==2.2.2
+sentence-transformers==1.2.0
 
 requests
 python-multipart
